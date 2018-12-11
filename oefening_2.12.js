@@ -1,5 +1,14 @@
 let temperatureConversion = function() {
-  let choice = prompt("Menu\n\n 0.End of the program.\n1.Celsius to Fahrenheit.\n2.Celsius to Kelvin.\n3.Fahrenheit to Celsius.\n4.Fahrenheit to Kelvin.\n5.Kelvin to Celsius.\n6.Kelvin to Fahrenheit.");
+  let choice = prompt("\
+  Menu \n\
+  0.End of the program.\n\
+  1.Celsius to Fahrenheit.\n\
+  2.Celsius to Kelvin.\n\
+  3.Fahrenheit to Celsius.\n\
+  4.Fahrenheit to Kelvin.\n\
+  5.Kelvin to Celsius.\n\
+  6.Kelvin to Fahrenheit.\
+  ");
   let c;
   let k;
   let f;
