@@ -1,10 +1,7 @@
 let date = new Date().getDay();
 console.log(date);
 
-
 let weekday = function() {
-
-
 
   switch( date ) {
     case 0:
