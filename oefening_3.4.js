@@ -1,5 +1,4 @@
 let reset = function() {
-
   let x = document.getElementsByTagName("input");
 
   for(i=0;0<x.length;i++) {

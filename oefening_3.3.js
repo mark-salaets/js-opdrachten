@@ -1,6 +1,6 @@
 let keyDown = function(e) {
   let key = event.keyCode;
-  window.alert(key);
+  alert(key);
 }
 
 let x = document.getElementById("name");
