@@ -52,13 +52,13 @@ var ArrayStringConversion = function (social_networks_chain) {
   return social_networks_chain.split(",");
 }
 
-// Make the "languages" array into a "languages_chaine" string. Separate languages with a comma
+// Make the "languages" array into a "languages_chain" string. Separate languages with a comma
 var languages = ['CSS', 'Javascript', 'PHP', 'Ruby'];
 var ChainArrayConversion = function (languages) {
   return languages.join(",");
 }
 
-// Sort the "social_networks" array
+// Sort the "social_networks" array alphabetically.
 var social_networks = ['Facebook','Twitter', 'Google +','Viadeo','LinkedIn'];
 var SortingArray = function (social_networks) {
   return social_networks.sort();
